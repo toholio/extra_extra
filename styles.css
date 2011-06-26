@@ -1,0 +1,207 @@
+/* The miscellaneous customizations must happen before anything else to allow for extra @imports */
+/* customize_miscellaneous */ /* customize_miscellaneous */
+
+body
+{
+  font-family: georgia, times;
+  /* customize_background */ background-color: #EBEDD3; /* customize_background */
+  /* customize_body */ color: #333333; /* customize_body */
+}
+
+a:link
+{
+  /* customize_link */ color: #3030AB; /* customize_link */
+  text-decoration: none;
+}
+
+a:visited
+{
+  /* customize_link_visited */ color: #7C30AB; /* customize_link_visited */
+  text-decoration: none;
+}
+
+a:hover
+{
+  /* customize_link_hover */ color: #DB1D1D; /* customize_link_hover */
+  text-decoration: none;
+}
+
+a:active
+{
+  /* customize_link_active */ color: #3030AB; /* customize_link_active */
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+h1#siteTitle
+{
+  text-align: center;
+}
+
+h1#siteTitle a
+{
+  text-decoration: none;
+  letter-spacing: 5px;
+  /* customize_title */ color: #333333; /* customize_title */
+}
+
+div#footer, div#header, div#sidebar
+{
+  font-weight: bold;
+}
+
+hr
+{
+  width:100%;
+  height: 1px;
+  background-color: #444444;;
+  border: none;
+  clear: both;
+}
+
+div#header hr, div#footer hr
+{
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div#header h1
+{
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+div#tagline
+{
+  width: 50%;
+  margin: auto;
+}
+
+div#tagline p
+{
+  margin: 0;
+}
+
+div#taglineDate
+{
+  width: 20%;
+  margin: 0;
+  float: left;
+}
+
+div#taglineDate p
+{
+  margin: 0;
+}
+
+div#taglinePrice
+{
+  width: 20%;
+  margin: 0;
+  float: right;
+}
+
+div#taglinePrice p
+{
+  margin: 0;
+}
+
+div.padWrap
+{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.wrapper
+{
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+  max-width: 900px;
+  min-height: 700px;
+  padding: 30px;
+  
+  /* customize_content_background */ background-color: #f9f9f9; /* customize_content_background */
+  
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+div#realsheet
+{
+  /* Placeholder for the real sheet extras. */  
+}
+
+div#backsheet1
+{
+  z-index: -1;
+  transform: rotate(2deg) translate(-5px, -2px);
+  -moz-transform: rotate(2deg) translate(-5px, -2px);
+  -o-transform: rotate(2deg) translate(-5px, -2px);
+  -webkit-transform: rotate(2deg) translate(-5px, -2px);
+}
+
+div#backsheet2
+{
+  z-index: -2;
+  transform: rotate(-3deg) translate( 0px, -10px );
+  -moz-transform: rotate(-3deg) translate( 0px, -10px );
+  -o-transform: rotate(-3deg) translate( 0px, -10px );
+  -webkit-transform: rotate(-3deg) translate( 0px, -10px );
+}
+
+div#contentWrapper
+{
+  float: left;
+  width: 100%;
+}
+
+div#content
+{
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height: 1px; /* To stop the sidebar from going missing if the page is blank. */
+  line-height: 150%;
+}
+
+div.contentRight
+{
+  margin-left: 290px;
+}
+
+div.contentLeft
+{
+  margin-right: 290px;
+}
+
+div#sidebarWrapper
+{
+  padding: 10px;
+  width: 260px;
+  margin-left: -100%;
+}
+
+div.sidebarWrapperLeft
+{
+  float: left;
+}
+
+div.sidebarWrapperRight
+{
+  float: right;
+}
