@@ -32,13 +32,13 @@
           </h1>
 
           <hr/>
-          <div id="taglineDate">
+          <div id="taglineLeft">
             <?php
               $a = new Area('Header Left');
               $a->display($c);
             ?>
           </div>
-          <div id="taglinePrice">
+          <div id="taglineRight">
             <?php
               $a = new Area('Header Right');
               $a->display($c);

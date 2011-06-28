@@ -90,26 +90,26 @@ div#tagline p
   margin: 0;
 }
 
-div#taglineDate
+div#taglineLeft
 {
   width: 20%;
   margin: 0;
   float: left;
 }
 
-div#taglineDate p
+div#taglineLeft p
 {
   margin: 0;
 }
 
-div#taglinePrice
+div#taglineRight
 {
   width: 20%;
   margin: 0;
   float: right;
 }
 
-div#taglinePrice p
+div#taglineRight p
 {
   margin: 0;
 }
