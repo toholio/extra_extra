@@ -67,8 +67,6 @@ hr
 div#header hr, div#footer hr
 {
   margin: 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 div#header h1
@@ -81,7 +79,6 @@ div#header h1
 
 div#tagline
 {
-  width: 50%;
   margin: auto;
 }
 
@@ -92,7 +89,6 @@ div#tagline p
 
 div#taglineLeft
 {
-  width: 20%;
   margin: 0;
   float: left;
 }
@@ -104,7 +100,6 @@ div#taglineLeft p
 
 div#taglineRight
 {
-  width: 20%;
   margin: 0;
   float: right;
 }
